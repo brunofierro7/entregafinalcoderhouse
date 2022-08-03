@@ -1,0 +1,47 @@
+footer {
+  width: 100%;
+  color: $enlaces-general-white;
+  background-color: $negro;
+  font-size: 1.4em;
+  text-shadow: 0px 0px 25px rgb(255, 255, 255);
+
+  @include desktop {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    .datos {
+      font-size: 1.3em;
+    }
+  }
+}
+
+.iconos-footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer div {
+  text-align: center;
+
+}
+
+.wpp-ico {
+  height: 45px;
+  margin-right: 1vw;
+}
+
+.ig-ico {
+  height: 40px;
+  align-self: center;
+  margin-right: 1vw;
+  margin-left: 3vw;
+}
+
+.datoswpp:hover {
+  color: rgb(61, 194, 61);
+
+}
+
+.datosig:hover ,.link-ig:hover{
+  color: rgb(224, 67, 177);
+}

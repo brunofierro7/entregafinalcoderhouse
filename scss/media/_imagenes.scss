@@ -1,0 +1,21 @@
+.h1-sucu{
+    height: 5.5vh;
+    margin-top: -10px;
+}
+
+.img-galeria {
+    width: 320px;
+    margin-bottom: 4vh;
+    border-radius: 17px;
+    padding: 0;
+    box-shadow: 0 0 20px rgb(128, 205, 207);
+    @include desktop {
+      height: auto;
+      width: 400px;
+    }
+    &:hover{
+        width: 65%;
+    border-radius: 0;
+
+    }
+  }
